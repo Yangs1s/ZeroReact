@@ -5,6 +5,7 @@ import React from 'react';
 function Badge({name ,color}) {
     return (
        <span className={ styles.Badge } style={{background:`#${color}`}}>{name}</span>
+       
     );
 }
 
