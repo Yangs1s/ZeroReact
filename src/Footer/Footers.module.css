@@ -1,0 +1,26 @@
+
+
+.footer{
+    margin-top: 40px;
+    padding:40px 16px 8px;
+    border-top:1px solid  hsla(210, 18%, 87%, 1);
+}
+.footerContainer{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+.gitInc{
+    font-size: 12px;
+    text-align: center;
+}
+
+.list{
+    font-size: 12px;
+    text-decoration: none;
+    color:#0969da
+}   

@@ -1,0 +1,8 @@
+.textfilters{
+    margin-top:8px;
+    cursor: pointer;
+}
+
+.selected {
+    font-weight: 800;
+}
