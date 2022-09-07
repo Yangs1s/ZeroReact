@@ -8,15 +8,20 @@ import Pagination from '../components/Pagination/Pagination';
 import axios from 'axios';
 import OpenClosedFilter from '../components/OpenClosedFilter/OpenClosedFilter';
 import { GITHUB_API } from '../api'
+import { useSearchParams } from 'react-router-dom';
 
 
 function Listcontainer() {
     const [inputValue, setInputValue] = useState('is:pro')
     const [checked, setChecked] = useState(false)
     const [list, setList] = useState([])
-    const [page, setPage] = useState(1)
-    const [params, setParams] = useState()
-    const [isOpenMode, setIsOpenMode] = useState(true);
+    // const [params, setParams] = useState()
+
+    const [searchParams, setSearchParams] = useSearchParams();
+    const page = parseInt(searchParams.get('page')?? '1',10);
+    const state = searchParams.get('state')
+    const maxPage = 10;
+    
 
     async function getData(params) {
         const data = await axios.get(`${GITHUB_API}/repos/facebook/react/issues`,{
@@ -26,8 +31,8 @@ function Listcontainer() {
     }
 
     useEffect(() => {
-        getData({page, state: isOpenMode ? 'open':'closed',...params });
-    }, [page, isOpenMode,params])
+        getData(searchParams);
+    }, [searchParams])
 
 
     return (
@@ -48,13 +53,13 @@ function Listcontainer() {
                         New issue
                     </Button>
                 </div>
-                <OpenClosedFilter isOpenMode={isOpenMode} onClickMode ={setIsOpenMode}/>
+                <OpenClosedFilter isOpenMode={state !== 'closed'} onClickMode ={(mode) => setSearchParams({mode})}/>
                 <div className={styles.container}>
                 <ListItemLayOut className={styles.filter}>
                     <FilterList onChangeFilter={(params) => {
                         // 필터링된 요소에 맞게 데이터를 불러와야한다.
                         //const data = getData('필터링된 데이터')
-                        setParams(params) 
+                        setSearchParams(params) 
                     }} />
                 </ListItemLayOut>
                     {list.map((item) => (
@@ -70,10 +75,12 @@ function Listcontainer() {
             </div>
             <div className={styles.PaginationContainer}>
                 <Pagination 
-                maxPage={10} 
                 currentPage={page} 
-                onClickPageButton={(number) => setPage(number)} />
-            </div>
+                onClickPageButton={(pageNumber) => setSearchParams({page:pageNumber})}
+                maxPage={maxPage} 
+                
+                />
+                </div>
         </>
     );
 }

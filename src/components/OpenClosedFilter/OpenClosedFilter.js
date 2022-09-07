@@ -12,13 +12,13 @@ function OpenClosedFilter({ isOpenMode, onClickMode }) {
                 // size={openModeDataSize}
                 state={"Open"}
                 selected={isOpenMode}
-                onclick={() => onClickMode(true)} />
+                onclick={() => onClickMode('open')} />
 
             <OpenClosedFilters
                 // size={closedModeDataSize}
                 state={"Closed"}
                 selected={!isOpenMode}
-                onclick={() => onClickMode(false)} />
+                onclick={() => onClickMode('closed')} />
         </>
     )
 }
