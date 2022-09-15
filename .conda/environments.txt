@@ -1,0 +1,4 @@
+/opt/homebrew/Caskroom/miniforge/base/envs/tf
+/Users/yangseongjin/opt/anaconda3
+/Users/yangseongjin/opt/anaconda3/envs/tftf
+/Users/yangseongjin/opt/anaconda3/envs/armtf

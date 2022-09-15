@@ -1,0 +1,144 @@
+[2022-02-20 14:54:26.974232] [0x0000000200b07600] [info]  anysign for pc start
+[2022-02-20 14:54:26.974362] [0x0000000200b07600] [info]  privilege infomation : yangseongjin
+[2022-02-20 14:54:27.039783] [0x0000000200b07600] [info]  anysign.no_tls_webcrypto_server : no tls / webcrypto socket
+[2022-02-20 14:54:27.040230] [0x0000000200b07600] [info]  dynamic assign no tls port : 55001
+[2022-02-20 14:54:27.040341] [0x0000000200b07600] [info]  anysign.tls_server : tls socket
+[2022-02-20 14:54:27.044374] [0x0000000200b07600] [info]  dynamic assign tls port : 55002
+[2022-02-20 14:54:27.449889] [0x0000000304c43000] [info]  websocket.transfer.endpoint.handle_accepterror : 00000022, message : Invalid argument
+[2022-02-20 14:54:27.451273] [0x0000000304c43000] [info]  handle_async_shutdown error : 00000009, message : Bad file descriptor
+[2022-02-20 14:54:27.451349] [0x0000000304c43000] [info]  websocket.connection.handle_terminate error : 00000006, message : pass through from socket policy
+[2022-02-20 14:54:27.451452] [0x0000000304c43000] [info]  anysign.base_server.handle_fail
+[2022-02-20 14:54:27.451482] [0x0000000304c43000] [info]  handle_accept error : 00000003, message : underlying transport error
+[2022-02-20 14:54:27.449783] [0x0000000304d49000] [info]  websocket.transfer.endpoint.handle_accepterror : 00000022, message : Invalid argument
+[2022-02-20 14:54:27.451852] [0x0000000304d49000] [info]  handle_accept error : 00000003, message : underlying transport error
+[2022-02-20 14:54:27.467025] [0x0000000304d49000] [info]  handle_async_shutdown error : 336462100, message : uninitialized
+[2022-02-20 14:54:27.467159] [0x0000000304d49000] [info]  websocket.connection.handle_terminate error : 00000014, message : generic tls related error
+[2022-02-20 14:54:27.467273] [0x0000000304d49000] [info]  anysign.base_server.handle_fail
+[2022-02-20 14:54:52.334456] [0x0000000304d49000] [info]  handle_accept. remote info : 127.0.0.1:63647
+[2022-02-20 14:54:52.334543] [0x0000000304d49000] [info]  websocket handshake complete measurement point
+[2022-02-20 14:54:52.342068] [0x0000000304d49000] [info]  websocket handshake complete elapsed time : 7 ms
+[2022-02-20 14:54:52.342103] [0x0000000304d49000] [info]  anysign.base_server native origin : efamily.scourt.go.kr
+[2022-02-20 14:54:52.342122] [0x0000000304d49000] [info]  anysign.base_server.handle_open index : 1, remote info : 127.0.0.1:63647
+[2022-02-20 14:54:52.344227] [0x0000000304d49000] [info]  websocket.connection.handle_read_frame complete recv frame data. opcode : 00000001
+[2022-02-20 14:54:52.344247] [0x0000000304d49000] [info]  anysign.base_server.jsonp_handle_input index : 1, data length : 9718
+[2022-02-20 14:54:52.344623] [0x0000000304d49000] [info]  anysign.base_server.native_create_by_websession native create (session:efamily.scourt.go.kr,id:1,ref:1)
+[2022-02-20 14:54:52.344647] [0x0000000304d49000] [info]  native_check_version measurement point
+[2022-02-20 14:54:52.344663] [0x0000000304d49000] [info]  native_check_version ret : 00000000, elapsed time : 0 ms
+[2022-02-20 14:54:52.344693] [0x0000000304d49000] [info]  native_put_license_n measurement point
+[2022-02-20 14:54:52.348390] [0x0000000304d49000] [info]  native_put_license_n ret : 00000000, elapsed time : 3 ms
+[2022-02-20 14:54:52.348423] [0x0000000304d49000] [info]  native_put_license2_n measurement point
+[2022-02-20 14:54:52.350521] [0x0000000304d49000] [info]  native_put_license2_n ret : 00000000, elapsed time : 2 ms
+[2022-02-20 14:54:52.350547] [0x0000000304d49000] [info]  native_put_storage_n measurement point
+[2022-02-20 14:54:52.350564] [0x0000000304d49000] [info]  native_put_storage_n ret : 00000000, elapsed time : 0 ms
+[2022-02-20 14:54:52.350580] [0x0000000304d49000] [info]  native_put_language_n measurement point
+[2022-02-20 14:54:52.350791] [0x0000000304d49000] [info]  native_put_language_n ret : 00000000, elapsed time : 0 ms
+[2022-02-20 14:54:52.350808] [0x0000000304d49000] [info]  native_put_char_set_n measurement point
+[2022-02-20 14:54:52.350825] [0x0000000304d49000] [info]  native_put_char_set_n ret : 00000000, elapsed time : 0 ms
+[2022-02-20 14:54:52.350847] [0x0000000304d49000] [info]  native_put_proxy_usage_n measurement point
+[2022-02-20 14:54:52.350861] [0x0000000304d49000] [info]  native_put_proxy_usage_n ret : 00000000, elapsed time : 0 ms
+[2022-02-20 14:54:52.350873] [0x0000000304d49000] [info]  native_put_transkey_n measurement point
+[2022-02-20 14:54:52.350886] [0x0000000304d49000] [info]  native_put_transkey_n ret : 00000000, elapsed time : 0 ms
+[2022-02-20 14:54:52.353554] [0x0000000304d49000] [info]  websocket.connection.handle_read_frame complete recv frame data. opcode : 00000001
+[2022-02-20 14:54:52.353578] [0x0000000304d49000] [info]  anysign.base_server.jsonp_handle_input index : 1, data length : 189
+[2022-02-20 14:54:52.353641] [0x0000000304d49000] [info]  native_get_media_list measurement point
+[2022-02-20 14:54:52.431077] [0x0000000304d49000] [info]  native_get_media_list ret : 00000000, elapsed time : 77 ms
+[2022-02-20 14:54:52.432096] [0x0000000304d49000] [info]  websocket.connection.handle_read_frame complete recv frame data. opcode : 00000001
+[2022-02-20 14:54:52.432114] [0x0000000304d49000] [info]  anysign.base_server.jsonp_handle_input index : 1, data length : 411
+[2022-02-20 14:54:52.432196] [0x0000000304d49000] [info]  native_get_cert_tree measurement point
+[2022-02-20 14:54:52.499655] [0x0000000304d49000] [info]  native_get_cert_tree ret : 22000005, elapsed time : 67 ms
+[2022-02-20 14:54:53.573436] [0x0000000304d49000] [info]  websocket.connection.handle_read_frame complete recv frame data. opcode : 00000001
+[2022-02-20 14:54:53.573767] [0x0000000304d49000] [info]  anysign.base_server.jsonp_handle_input index : 1, data length : 191
+[2022-02-20 14:54:53.574233] [0x0000000304d49000] [info]  native_get_media_list measurement point
+[2022-02-20 14:54:53.693319] [0x0000000304d49000] [info]  native_get_media_list ret : 00000000, elapsed time : 119 ms
+[2022-02-20 14:54:53.694888] [0x0000000304d49000] [info]  websocket.connection.handle_read_frame complete recv frame data. opcode : 00000001
+[2022-02-20 14:54:53.694904] [0x0000000304d49000] [info]  anysign.base_server.jsonp_handle_input index : 1, data length : 191
+[2022-02-20 14:54:53.694973] [0x0000000304d49000] [info]  native_get_media_list measurement point
+[2022-02-20 14:54:53.761146] [0x0000000304d49000] [info]  native_get_media_list ret : 00000000, elapsed time : 66 ms
+[2022-02-20 14:54:54.224953] [0x0000000304d49000] [info]  websocket.connection.handle_read_frame complete recv frame data. opcode : 00000001
+[2022-02-20 14:54:54.225267] [0x0000000304d49000] [info]  anysign.base_server.jsonp_handle_input index : 1, data length : 189
+[2022-02-20 14:54:54.225630] [0x0000000304d49000] [info]  native_get_media_list measurement point
+[2022-02-20 14:54:54.342677] [0x0000000304d49000] [info]  native_get_media_list ret : 00000000, elapsed time : 117 ms
+[2022-02-20 14:54:54.343689] [0x0000000304d49000] [info]  websocket.connection.handle_read_frame complete recv frame data. opcode : 00000001
+[2022-02-20 14:54:54.343709] [0x0000000304d49000] [info]  anysign.base_server.jsonp_handle_input index : 1, data length : 411
+[2022-02-20 14:54:54.343787] [0x0000000304d49000] [info]  native_get_cert_tree measurement point
+[2022-02-20 14:54:54.410071] [0x0000000304d49000] [info]  native_get_cert_tree ret : 22000005, elapsed time : 66 ms
+[2022-02-20 14:54:57.315745] [0x0000000304d49000] [info]  websocket.connection.handle_read_frame complete recv frame data. opcode : 00000001
+[2022-02-20 14:54:57.316088] [0x0000000304d49000] [info]  anysign.base_server.jsonp_handle_input index : 1, data length : 189
+[2022-02-20 14:54:57.316451] [0x0000000304d49000] [info]  native_get_media_list measurement point
+[2022-02-20 14:54:57.440804] [0x0000000304d49000] [info]  native_get_media_list ret : 00000000, elapsed time : 124 ms
+[2022-02-20 14:54:57.441665] [0x0000000304d49000] [info]  websocket.connection.handle_read_frame complete recv frame data. opcode : 00000001
+[2022-02-20 14:54:57.441683] [0x0000000304d49000] [info]  anysign.base_server.jsonp_handle_input index : 1, data length : 411
+[2022-02-20 14:54:57.441759] [0x0000000304d49000] [info]  native_get_cert_tree measurement point
+[2022-02-20 14:54:57.507835] [0x0000000304d49000] [info]  native_get_cert_tree ret : 22000005, elapsed time : 66 ms
+[2022-02-20 14:55:52.345445] [0x0000000304d49000] [info]  websocket.connection.handle_read_frame complete recv frame data. opcode : 00000010
+[2022-02-20 14:56:37.041414] [0x0000000304d49000] [info]  ------------- tls connection -------------
+[2022-02-20 14:56:37.041881] [0x0000000304d49000] [info]  index : 1, remote : 127.0.0.1:63647
+[2022-02-20 14:56:37.041933] [0x0000000304d49000] [info]  ------------------------------------------
+[2022-02-20 14:56:52.348686] [0x0000000304d49000] [info]  websocket.connection.handle_read_frame complete recv frame data. opcode : 00000010
+[2022-02-20 14:56:56.455378] [0x0000000304d49000] [info]  websocket.connection.handle_read_frame complete recv frame data. opcode : 00000001
+[2022-02-20 14:56:56.455765] [0x0000000304d49000] [info]  anysign.base_server.jsonp_handle_input index : 1, data length : 189
+[2022-02-20 14:56:56.456321] [0x0000000304d49000] [info]  native_get_media_list measurement point
+[2022-02-20 14:56:56.575822] [0x0000000304d49000] [info]  native_get_media_list ret : 00000000, elapsed time : 119 ms
+[2022-02-20 14:56:56.577211] [0x0000000304d49000] [info]  websocket.connection.handle_read_frame complete recv frame data. opcode : 00000001
+[2022-02-20 14:56:56.577268] [0x0000000304d49000] [info]  anysign.base_server.jsonp_handle_input index : 1, data length : 411
+[2022-02-20 14:56:56.577371] [0x0000000304d49000] [info]  native_get_cert_tree measurement point
+[2022-02-20 14:56:56.644775] [0x0000000304d49000] [info]  native_get_cert_tree ret : 22000005, elapsed time : 67 ms
+[2022-02-20 14:56:59.155017] [0x0000000304d49000] [info]  websocket.connection.handle_read_frame complete recv frame data. opcode : 00000001
+[2022-02-20 14:56:59.155381] [0x0000000304d49000] [info]  anysign.base_server.jsonp_handle_input index : 1, data length : 189
+[2022-02-20 14:56:59.155778] [0x0000000304d49000] [info]  native_get_media_list measurement point
+[2022-02-20 14:56:59.280196] [0x0000000304d49000] [info]  native_get_media_list ret : 00000000, elapsed time : 124 ms
+[2022-02-20 14:56:59.281117] [0x0000000304d49000] [info]  websocket.connection.handle_read_frame complete recv frame data. opcode : 00000001
+[2022-02-20 14:56:59.281135] [0x0000000304d49000] [info]  anysign.base_server.jsonp_handle_input index : 1, data length : 411
+[2022-02-20 14:56:59.281212] [0x0000000304d49000] [info]  native_get_cert_tree measurement point
+[2022-02-20 14:56:59.347249] [0x0000000304d49000] [info]  native_get_cert_tree ret : 22000005, elapsed time : 66 ms
+[2022-02-20 14:57:38.207299] [0x0000000304d49000] [info]  websocket.connection.handle_read_frame complete recv frame data. opcode : 00000001
+[2022-02-20 14:57:38.207666] [0x0000000304d49000] [info]  anysign.base_server.jsonp_handle_input index : 1, data length : 191
+[2022-02-20 14:57:38.208026] [0x0000000304d49000] [info]  native_get_media_list measurement point
+[2022-02-20 14:57:38.323487] [0x0000000304d49000] [info]  native_get_media_list ret : 00000000, elapsed time : 115 ms
+[2022-02-20 14:57:38.325422] [0x0000000304d49000] [info]  websocket.connection.handle_read_frame complete recv frame data. opcode : 00000001
+[2022-02-20 14:57:38.325478] [0x0000000304d49000] [info]  anysign.base_server.jsonp_handle_input index : 1, data length : 191
+[2022-02-20 14:57:38.325574] [0x0000000304d49000] [info]  native_get_media_list measurement point
+[2022-02-20 14:57:38.393653] [0x0000000304d49000] [info]  native_get_media_list ret : 00000000, elapsed time : 68 ms
+[2022-02-20 14:57:40.334813] [0x0000000304d49000] [info]  websocket.connection.handle_read_frame complete recv frame data. opcode : 00000001
+[2022-02-20 14:57:40.335228] [0x0000000304d49000] [info]  anysign.base_server.jsonp_handle_input index : 1, data length : 413
+[2022-02-20 14:57:40.335619] [0x0000000304d49000] [info]  native_get_cert_tree measurement point
+[2022-02-20 14:57:40.449276] [0x0000000304d49000] [info]  native_get_cert_tree ret : 22000005, elapsed time : 113 ms
+[2022-02-20 14:57:41.544581] [0x0000000304d49000] [info]  websocket.connection.handle_read_frame complete recv frame data. opcode : 00000001
+[2022-02-20 14:57:41.544948] [0x0000000304d49000] [info]  anysign.base_server.jsonp_handle_input index : 1, data length : 191
+[2022-02-20 14:57:41.545324] [0x0000000304d49000] [info]  native_get_media_list measurement point
+[2022-02-20 14:57:41.659238] [0x0000000304d49000] [info]  native_get_media_list ret : 00000000, elapsed time : 113 ms
+[2022-02-20 14:57:41.660148] [0x0000000304d49000] [info]  websocket.connection.handle_read_frame complete recv frame data. opcode : 00000001
+[2022-02-20 14:57:41.660199] [0x0000000304d49000] [info]  anysign.base_server.jsonp_handle_input index : 1, data length : 191
+[2022-02-20 14:57:41.660288] [0x0000000304d49000] [info]  native_get_media_list measurement point
+[2022-02-20 14:57:41.726735] [0x0000000304d49000] [info]  native_get_media_list ret : 00000000, elapsed time : 66 ms
+[2022-02-20 14:57:42.246446] [0x0000000304d49000] [info]  websocket.connection.handle_read_frame complete recv frame data. opcode : 00000001
+[2022-02-20 14:57:42.247677] [0x0000000304d49000] [info]  anysign.base_server.jsonp_handle_input index : 1, data length : 413
+[2022-02-20 14:57:42.248096] [0x0000000304d49000] [info]  native_get_cert_tree measurement point
+[2022-02-20 14:57:42.363171] [0x0000000304d49000] [info]  native_get_cert_tree ret : 22000005, elapsed time : 115 ms
+[2022-02-20 14:57:43.575299] [0x0000000304d49000] [info]  websocket.connection.handle_read_frame complete recv frame data. opcode : 00000001
+[2022-02-20 14:57:43.575628] [0x0000000304d49000] [info]  anysign.base_server.jsonp_handle_input index : 1, data length : 189
+[2022-02-20 14:57:43.576012] [0x0000000304d49000] [info]  native_get_media_list measurement point
+[2022-02-20 14:57:43.699208] [0x0000000304d49000] [info]  native_get_media_list ret : 00000000, elapsed time : 123 ms
+[2022-02-20 14:57:43.700113] [0x0000000304d49000] [info]  websocket.connection.handle_read_frame complete recv frame data. opcode : 00000001
+[2022-02-20 14:57:43.700136] [0x0000000304d49000] [info]  anysign.base_server.jsonp_handle_input index : 1, data length : 411
+[2022-02-20 14:57:43.700215] [0x0000000304d49000] [info]  native_get_cert_tree measurement point
+[2022-02-20 14:57:43.766283] [0x0000000304d49000] [info]  native_get_cert_tree ret : 22000005, elapsed time : 66 ms
+[2022-02-20 14:57:52.354102] [0x0000000304d49000] [info]  websocket.connection.handle_read_frame complete recv frame data. opcode : 00000010
+[2022-02-20 14:58:47.043304] [0x0000000304d49000] [info]  ------------- tls connection -------------
+[2022-02-20 14:58:47.044345] [0x0000000304d49000] [info]  index : 1, remote : 127.0.0.1:63647
+[2022-02-20 14:58:47.044395] [0x0000000304d49000] [info]  ------------------------------------------
+[2022-02-20 14:58:52.356070] [0x0000000304d49000] [info]  websocket.connection.handle_read_frame complete recv frame data. opcode : 00000010
+[2022-02-20 14:59:52.360723] [0x0000000304d49000] [info]  websocket.connection.handle_read_frame complete recv frame data. opcode : 00000010
+[2022-02-20 15:00:52.363083] [0x0000000304d49000] [info]  websocket.connection.handle_read_frame complete recv frame data. opcode : 00000010
+[2022-02-20 15:00:53.281596] [0x0000000304d49000] [info]  websocket.connection.handle_read_frame complete recv frame data. opcode : 00000008
+[2022-02-20 15:00:53.283020] [0x0000000304d49000] [error]  websocket.connection.handle_read_frame error : 00000011, message : tls short read
+[2022-02-20 15:00:53.283352] [0x0000000304d49000] [info]  transport.connection.handle_async_write error : 336396495, message : protocol is shutdown
+[2022-02-20 15:00:53.283425] [0x0000000304d49000] [fatal]  websocket.connection.handle_write_frame error : 00000003, message : underlying transport error
+[2022-02-20 15:00:53.283543] [0x0000000304d49000] [info]  handle_async_shutdown error : 00000054, message : Connection reset by peer
+[2022-02-20 15:00:53.283582] [0x0000000304d49000] [info]  websocket.connection.handle_terminate error : 00000003, message : underlying transport error
+[2022-02-20 15:00:53.283700] [0x0000000304d49000] [info]  anysign.base_server.handle_close. session id : 1, session ref : 0
+[2022-02-20 15:00:53.283750] [0x0000000304d49000] [info]  native delete measurement point
+[2022-02-20 15:00:53.283789] [0x0000000304d49000] [info]  native delete elapsed time : 0 ms
+[2022-02-20 15:00:53.283815] [0x0000000304d49000] [info]  anysign.base_server.handle_close. index : 1, remote info : 127.0.0.1:63647
+[2022-02-20 15:01:25.102907] [0x0000000200b07600] [info]  anysign.shutdown_session_strategy : begin server shutdown
+[2022-02-20 15:01:25.104315] [0x0000000200b07600] [info]  anysign for pc stop.

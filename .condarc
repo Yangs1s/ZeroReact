@@ -1,0 +1,7 @@
+channels:
+  - conda-forge
+pkgs_dirs:
+  - dir_name
+  - /yangseongjin/miniforge3/pkgs
+report_errors: true
+auto_activate_base: false
